@@ -18,7 +18,7 @@ class Config:
     MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-100))
     DEV_USERS = int(config("DEV_USERS", default=1344569458))
     SUDO_USERS = int(config("SUDO_USERS", default=1344569458))
-    
+    WHITELIST_USERS = int(config("WHITELIST_USERS", default=""))
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
     AuDD_API = config("AuDD_API",default=None)
     RMBG_API = config("RMBG_API",default=None)
